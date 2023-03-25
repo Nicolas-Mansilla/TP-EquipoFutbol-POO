@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var seleccionDeFutbol_1 = require("./seleccionDeFutbol");
+var entrenador_1 = require("./entrenador");
+var masajista_1 = require("./masajista");
+var jugadores_1 = require("./jugadores");
+var masajista1 = new masajista_1.Masajista(120000, "Alberto", "Paredes", 23444543, 1946);
+var entrenador1 = new entrenador_1.Entrenador(false, "Mariano", "Pasaglia", 5000123123, 1998);
+var jugador1 = new jugadores_1.Jugadores(true, "Alfredo", "Delantero", 23332123, 2014);
+var seleccion1 = new seleccionDeFutbol_1.SeleccionDeFutbol("Asociacion de Futbol Argentina", "Buenos Aires", "Argentina", jugador1);
+console.log(seleccion1);
+console.log(masajista1);
+console.log(entrenador1);
